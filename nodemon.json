@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "handler.ts",
+        "src"
+    ],
+    "ext": "ts,json",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "npx ts-node -r tsconfig-paths/register ./handler.ts"
+}
